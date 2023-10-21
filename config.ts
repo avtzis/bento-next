@@ -11,9 +11,9 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
-  openInNewTab: true,
-  title: 'Bento',
+  name: 'Altan',
+  openInNewTab: false,
+  title: '~',
 
   // Clock
   twelveHourFormat: false,
@@ -22,13 +22,13 @@ export const config: Config = {
   // Font Family
   font: {
     // 'google' or 'local'
-    source: 'google',
+    source: 'local',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'Fira Code',
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'dracula',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -46,6 +46,7 @@ export const config: Config = {
     'nord',
     'sakura',
     'solarized',
+    'dracula',
   ],
 
   // Search Bar
@@ -109,17 +110,17 @@ export const config: Config = {
       {
         name: 'Mail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://hotmail.com',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Helios',
+        icon: 'sun',
+        url: 'https://helios.ntua.gr',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Twitter',
+        icon: 'fab-twitter',
+        url: 'https://twitter.com',
       },
       {
         name: 'Reddit',
@@ -129,7 +130,7 @@ export const config: Config = {
       {
         name: 'Odysee',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        url: 'https://youtube.com/',
       },
     ],
     // Second buttons group
@@ -174,23 +175,23 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'code', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'ChatGPT', // Display text for the link
+            url: 'https://chat.openai.com', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'C++',
+            url: 'https://cplusplus.com/',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Arch',
+            url: 'https://archlinux.org/',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Stack Overflow',
+            url: 'https://stackoverflow.com/',
           },
         ],
       },
@@ -198,20 +199,20 @@ export const config: Config = {
         icon: 'coffee',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Shakes',
+            url: 'https://sfgame.net/play',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Twitch',
+            url: 'https://www.twitch.tv/',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'Streams',
+            url: 'https://www.reddit-soccerstreams.com/',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Skroutz',
+            url: 'https://www.skroutz.gr/',
           },
         ],
       },
