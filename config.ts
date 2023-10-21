@@ -128,7 +128,7 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
+        name: 'Youtube',
         icon: 'fab-youtube',
         url: 'https://youtube.com/',
       },
@@ -142,7 +142,7 @@ export const config: Config = {
         url: 'https://open.spotify.com',
       },
       {
-        name: 'twitter',
+        name: 'Twitter',
         icon: 'fab-twitter',
         url: 'https://twitter.com/',
       },
@@ -211,8 +211,8 @@ export const config: Config = {
             url: 'https://www.reddit-soccerstreams.com/',
           },
           {
-            name: 'Skroutz',
-            url: 'https://www.skroutz.gr/',
+            name: 'F1TV',
+            url: 'https://f1tv.formula1.com/',
           },
         ],
       },
