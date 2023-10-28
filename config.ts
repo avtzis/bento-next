@@ -114,7 +114,7 @@ export const config: Config = {
       },
       {
         name: 'Helios',
-        icon: 'sun',
+        icon: 'graduation-cap',
         url: 'https://helios.ntua.gr',
       },
       {
