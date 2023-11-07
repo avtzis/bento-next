@@ -203,8 +203,8 @@ export const config: Config = {
             url: 'https://sfgame.net/play',
           },
           {
-            name: 'Twitch',
-            url: 'https://www.twitch.tv/',
+            name: 'Drive',
+            url: 'https://drive.google.com/drive/my-drive',
           },
           {
             name: 'Streams',
