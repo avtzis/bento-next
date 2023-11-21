@@ -108,9 +108,9 @@ export const config: Config = {
         url: 'https://github.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://hotmail.com',
+        name: 'Drive',
+        icon: 'fab-google-drive',
+        url: 'https://drive.google.com/',
       },
       {
         name: 'Helios',
