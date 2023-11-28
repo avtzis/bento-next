@@ -203,8 +203,8 @@ export const config: Config = {
             url: 'https://sfgame.net/play',
           },
           {
-            name: 'Drive',
-            url: 'https://drive.google.com/drive/my-drive',
+            name: 'Netflix',
+            url: 'https://netflix.com',
           },
           {
             name: 'Streams',
