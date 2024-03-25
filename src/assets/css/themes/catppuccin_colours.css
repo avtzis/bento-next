@@ -86,6 +86,11 @@
   --mocha-rosewater-l: 91;
   --mocha-rosewater: hsl(var(--mocha-rosewater-h), calc(var(--mocha-rosewater-s) * 1%), calc((var(--mocha-rosewater-l) + 0) * 1%));
 
+  --mocha-lavender-h: 232;
+  --mocha-lavender-s: 97;
+  --mocha-lavender-l: 85;
+  --mocha-lavender: hsl(var(--mocha-lavender-h), calc(var(--mocha-lavender-s) * 1%), calc((var(--mocha-lavender-l) + 0) * 1%));
+
   --mocha-text-h: 226;
   --mocha-text-s: 64;
   --mocha-text-l: 88;

@@ -22,13 +22,13 @@ export const config: Config = {
   // Font Family
   font: {
     // 'google' or 'local'
-    source: 'local',
+    source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Fira Code',
+    name: 'Google Sans',
   },
 
   // Theme
-  theme: 'dracula',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -186,12 +186,12 @@ export const config: Config = {
             url: 'https://cplusplus.com/',
           },
           {
-            name: 'Arch',
-            url: 'https://archlinux.org/',
+            name: 'Arch Wiki',
+            url: 'https://wiki.archlinux.org/',
           },
           {
-            name: 'Stack Overflow',
-            url: 'https://stackoverflow.com/',
+            name: 'Translate',
+            url: 'https://translate.google.com/',
           },
         ],
       },
@@ -199,20 +199,20 @@ export const config: Config = {
         icon: 'coffee',
         links: [
           {
-            name: 'Shakes',
-            url: 'https://sfgame.net/play',
+            name: 'Twitch',
+            url: 'https://twitch.tv',
           },
           {
             name: 'Netflix',
             url: 'https://netflix.com',
           },
           {
-            name: 'Streams',
-            url: 'https://www.reddit-soccerstreams.com/',
-          },
-          {
             name: 'F1TV',
             url: 'https://f1tv.formula1.com/',
+          },
+          {
+            name: 'Footy Streams',
+            url: 'https://www.reddit-soccerstreams.com/',
           },
         ],
       },
