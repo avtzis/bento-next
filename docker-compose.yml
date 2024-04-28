@@ -1,12 +1,15 @@
 version: "3.9"
 
-services: 
+services:
   bento:
-    image: lewisdoesstuff/bento-next
+    # image: lewisdoesstuff/bento-next
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       # Append Bento config/.env location to below line.
-      - /config.ts:/usr/share/nginx/html/config.ts
-      - /.env:/usr/share/nginx/html/.env
+      - ./config.ts:/usr/share/nginx/html/config.ts
+      - ./.env:/usr/share/nginx/html/.env
     ports:
       # Replace host port 80 (left side) with desired port.
-      - 80:8080
+      - 8888:8080
