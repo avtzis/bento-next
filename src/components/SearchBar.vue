@@ -13,7 +13,7 @@ onMounted(() => {
 
 const engines = {
   google: {
-    url: 'https://www.google.com/search?q=',
+    url: 'https://www.google.com/search?client=firefox-b-d&q=',
     display: 'Google',
   },
   ddg: {
@@ -31,9 +31,9 @@ const placeholder = () => {
 
 const submitted = () => {
   if (config.openInNewTab) {
-    window.open(`${engines[config.searchEngine].url}${searchText.value}`);
+    window.open(`${engines[config.searchEngine].url}${searchText.value.replace(/ /g, '+')}`);
   } else {
-    window.location.href = `${engines[config.searchEngine].url}${searchText.value}`;
+    window.location.href = `${engines[config.searchEngine].url}${searchText.value.replace(/ /g, '+')}`;
   }
   searchText.value = '';
 };
