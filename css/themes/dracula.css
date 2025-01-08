@@ -1,0 +1,22 @@
+:root {
+  /* Light Colors  */
+
+  --background: #282a36; /* Background color */
+  --accent: #6272a4; /* Hover color */
+  --cards: #44475a; /* Cards color */
+
+  /* Fonts Color */
+  --fg: #f8f8f2; /* Foreground color */
+  --sfg: #bd93f9; /* Sceondary Foreground color */
+
+  /* Dark Colors  */
+
+  --darkbackground: #282A36; /* Background color */
+  --darkaccent: #6272A4; /* Hover color */
+  --darkcards: #44475A; /* Cards color */
+
+  /* Fonts Color */
+  --darkfg: #F8F8F2; /* Foreground color */
+  --darksfg: #BD93F9; /* Secondary Foreground color */
+
+}
